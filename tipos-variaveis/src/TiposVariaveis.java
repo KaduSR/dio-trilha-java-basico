@@ -1,4 +1,5 @@
 public class TiposVariaveis {
+	
     public static void main(String[] args) throws Exception {
         // Tipos de variáveis
         byte idade = 123;
