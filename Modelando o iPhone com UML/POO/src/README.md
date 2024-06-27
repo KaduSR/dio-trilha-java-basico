@@ -8,11 +8,6 @@ Modelagem e diagramação da representação em UML e implementação do código
   </i></b>
 </p>
 
-<p align="center">
-	<img alt="Tamanho do código no GitHub em bytes" src="https://img.shields.io/github/languages/code-size/seu-usuario/seu-repositorio?color=6272a4" />
-	<img alt="Linguagem principal" src="https://img.shields.io/github/languages/top/seu-usuario/seu-repositorio?color=6272a4"/>
-</p>
-
 ## 💡 Sobre o projeto
 Baseado no lançamento do iPhone, este projeto visa a diagramação das classes e interfaces usando uma ferramenta UML para representar as funcionalidades de Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. Após a diagramação, serão implementadas as classes e interfaces correspondentes em arquivos .java.
  <br> <br>
@@ -23,7 +18,7 @@ Baseado no lançamento do iPhone, este projeto visa a diagramação das classes 
 - ```README.md```  Informações do projeto.  
 ## 📍 Instruções 
 
-### Exemplo de Diagrama UML (Mermaid)
+###Diagrama UML (Mermaid)
 ```mermaid
 classDiagram
     class ReprodutorMusical {
@@ -50,9 +45,10 @@ classDiagram
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
+```
 
 
-    ### Pré-Requisitos
+### Pré-Requisitos
 
 ###### Comportamentos esperados:
 * Repodutor Musicial: tocar, pausar, selecionarMusica
