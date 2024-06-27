@@ -1,18 +1,73 @@
-## Getting Started
+<h1 align="center">
+ Desafio Iphone DIO
+</h1>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<p align="center">
+	<b><i>
+Modelagem e diagramação da representação em UML e implementação do código relacionado ao componente iPhone. 
+  </i></b>
+</p>
 
-## Folder Structure
+## 💡 Sobre o projeto
+Baseado no lançamento do iPhone, este projeto visa a diagramação das classes e interfaces usando uma ferramenta UML para representar as funcionalidades de Reprodutor Musical, Aparelho Telefônico e Navegador na Internet. Após a diagramação, serão implementadas as classes e interfaces correspondentes em arquivos .java.
+ <br> <br>
 
-The workspace contains two folders by default, where:
+## 📁 Estrutura/
+- [src] código do fonte 
+- Diagrama de Classes listado abaixo.
+- ```README.md```  Informações do projeto.  
+## 📍 Instruções 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+###Diagrama UML (Mermaid)
+```mermaid
+classDiagram
+    class ReprodutorMusical {
+        +tocar()
+        +pausar()
+        +selecionarMusica(String musica)
+    }
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+    class AparelhoTelefonico {
+        +ligar(String numero)
+        +atender()
+        +iniciarCorrerioVoz()
+    }
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+    class NavegadorInternet {
+        +exibirPagina(String url)
+        +adicionarNovaAba()
+        +atualizarPagina()
+    }
 
-## Dependency Management
+    class iPhone {
+    }
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
+```
+
+
+### Pré-Requisitos
+
+###### Comportamentos esperados:
+* Repodutor Musicial: tocar, pausar, selecionarMusica
+* Aparelho Telefônico: ligar, atender, iniciarCorrerioVoz
+* Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
+
+##  🔧 Tecnologias
+![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+  
+## 🔗 Referências
+- Videoaulas do Bootcamp Desenvolvimento Java com IA na plataforma da DIO
+
+
+## ✅ Feedback
+
+Caso tenha algum feedback, entre em contato!
+
+<a href = "mailto:kaduesr@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a> 
+<a href="https:/[/https://www.linkedin.com/in/carlos-eduardo-da-silva-ribeiro-0a0a1935/]/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+<p align="center"> Desenvolvido por Kadu Ribeiro </p>
+
